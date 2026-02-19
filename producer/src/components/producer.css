@@ -1,11 +1,12 @@
-*{
+*{;
     div{
         border: 2px solid black;
+        font-family: sans-serif;
     }
 }
 .main{
     max-width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -13,7 +14,6 @@
     flex: 1;
     display: flex;
     flex-direction: row;
-    border: none;
     padding-bottom: 10px;
 }
 .t-l{
@@ -25,31 +25,38 @@
 .t1{
     flex: 1;
     border: none;
+    padding: 10px;
 }
 .t2{
     flex: 1;
     border: none;
+    padding: 10px;
 }
 .t-r{
     flex: 1;
+    display: flex;
+    border: none;
 }
 .user{
-    flex: 1;
     display: flex;
-    
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
 }
+    
 .middle{
     flex: 1;
     display: flex;
     flex-direction: row;
     gap: 20px;
     padding: 10px;
+    margin-right: 50px;
+    border: none;
 }
 .a1{
     flex: 1;
     display: flex;
-    background-color: red;
-    color: white;
     align-items: center;
     justify-content: center;
     border-radius: 50pc;
@@ -58,6 +65,8 @@
 .a2{
     flex: 1;
     display: flex;
+    background-color: red;
+    color: white;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
@@ -75,46 +84,60 @@
     flex: 10;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    border: none;
 }
 .b-t{
     flex: 1;
     display: flex;
     flex-direction: column;
+    border: none;
+    background-color: lightgrey;
 }
 .bh{
     flex: 1;
+    display: flex;
+    color: red;
+    border: none;
 }
 .bh1{
     height: 2px;
     width: 50px;
-    background: linear-gradient(to right,yellow,red);
+    background: linear-gradient(to right,red,yellow);
     margin-top: 40px;
     border: none;
     display: flex;
-    
 }
 .b-b{
     flex: 8;
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    border: none;
+    background: linear-gradient(to right,white,lightpink);
 }
 .b-l{
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    border: none;
 }
 .l1{
     flex: 1;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
 }
 .b1{
     flex: 1;
+    border: none;
 }
-.iron{
-    height: 100px;
-    width: 175px;
-    object-fit: cover;
+.anathan{
+    height: 107%;
+    max-width: 100%;
+    border-radius: 20px;
 }
 
 .b11{
@@ -122,15 +145,17 @@
     display: flex;
     flex-direction: column;
     border: none;
+    padding: 10px;
 }
 .bb1{
     flex: 1;
     border: none;
+    padding-top: 30px;
 }
 .bb2{
     height: 2px;
     width: 50px;
-    background: linear-gradient(to right,yellow,red);
+    background: linear-gradient(to right,red,yellow);
     border: none;
 }
 .bb3{
@@ -145,26 +170,33 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    border-radius: 30px;
+    background-color: white;
 }
 .b2{
     flex: 1;
+    border: none;
 }
-.tobi{
-    height: 100px;
-    width: 175px;
+.a1920{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
 }
 .b22{
     flex: 1;
     display: flex;
     flex-direction: column;
     border: none;
+    padding: 10px;
 }
 .bb5{
     flex: 1;
     border: none;
 }
 .bb6{
-    flex: 1;
+    height: 2px;
+    width: 50px;
+    background: linear-gradient(to right,red,yellow);
     border: none;
 }
 .bb7{
@@ -175,100 +207,117 @@
     flex: 1;
     border: none;
 }
-.l3{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-.b3{
-    flex: 1;
-}
-.north{
-    height: 100px;
-    width: 175px;
-}
-.b33{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    border: none;
-}
-.bb9{
-    flex: 1;
-    border: none;
-}
-.bb10{
-    flex: 1;
-    border: none;
-}
-.bb11{
-    flex: 1;
-    border: none;
+.james{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
 }
 .b-r{
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    border: none;
 }
 .r1{
     flex: 1;
     display: flex;
     flex-direction: column;
+    border-radius: 30px;
+    background-color: white;
 }
 .b4{
     flex: 1;
+    border: none
 }
 .b44{
     flex: 1;
     display: flex;
     flex-direction: column;
     border: none;
+    padding: 10px;
+}
+.bb9{
+    flex: 1;
+    border: none;
+}
+.bb10{
+    height: 2px;
+    width: 50px;
+    background: linear-gradient(to right,red,yellow);
+    border: none;
+}
+.bb11{
+    flex: 1;
+    border: none;
+}
+.bb12{
+    flex: 1;
+    border: none;
 }
 .r2{
     flex: 1;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
 }
 .b5{
     flex: 1;
+    border: none;
 }
-.yuva{
-    height: 100px;
-    width: 175px;
+.ong{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
 }
 .b55{
     flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 10px;
+}
+.cl{
+    flex: 2;
     display: flex;
     flex-direction: column;
     border: none;
 }
 .bb13{
     flex: 1;
+    border: none;
 }
 .bb14{
-    flex: 1;
+    height: 2px;
+    width: 50px;
+    background: linear-gradient(to right,red,yellow);
+    border: none;
 }
 .bb15{
     flex: 1;
+    border: none;
 }
 .bb16{
     flex: 1;
+    border: none;
 }
-.r3{
+.cr{
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 50px;
+    border: none;
 }
-.b6{
-    flex: 1;
-}
-.kabza{
-    height: 100px;
-    width: 175px;
-}
-.b66{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+.btn{
+    background: linear-gradient(to right,red,yellow);
+    height: 50px;
+    width: 50px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    border-radius: 10px;
     border: none;
 }
