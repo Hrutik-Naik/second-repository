@@ -1,0 +1,274 @@
+*{
+    div{
+        border: 2px solid black;
+    }
+}
+.main{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding-bottom: 10px;
+}
+.t-l{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.t1{
+    flex: 1;
+    border: none;
+}
+.t2{
+    flex: 1;
+    border: none;
+}
+.t-r{
+    flex: 1;
+}
+.user{
+    flex: 1;
+    display: flex;
+    
+}
+.middle{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+.a1{
+    flex: 1;
+    display: flex;
+    background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50pc;
+    height: 20px;
+}
+.a2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 20px;
+}
+.a3{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 20px;
+}
+.bottom{
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+}
+.b-t{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.bh{
+    flex: 1;
+}
+.bh1{
+    height: 2px;
+    width: 50px;
+    background: linear-gradient(to right,yellow,red);
+    margin-top: 40px;
+    border: none;
+    display: flex;
+    
+}
+.b-b{
+    flex: 8;
+    display: flex;
+    flex-direction: row;
+}
+.b-l{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.l1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b1{
+    flex: 1;
+}
+.iron{
+    height: 100px;
+    width: 175px;
+    object-fit: cover;
+}
+
+.b11{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.bb1{
+    flex: 1;
+    border: none;
+}
+.bb2{
+    height: 2px;
+    width: 50px;
+    background: linear-gradient(to right,yellow,red);
+    border: none;
+}
+.bb3{
+    flex: 1;
+    border: none;
+}
+.bb4{
+    flex: 1;
+    border: none;
+}
+.l2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b2{
+    flex: 1;
+}
+.tobi{
+    height: 100px;
+    width: 175px;
+}
+.b22{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.bb5{
+    flex: 1;
+    border: none;
+}
+.bb6{
+    flex: 1;
+    border: none;
+}
+.bb7{
+    flex: 1;
+    border: none;
+}
+.bb8{
+    flex: 1;
+    border: none;
+}
+.l3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b3{
+    flex: 1;
+}
+.north{
+    height: 100px;
+    width: 175px;
+}
+.b33{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.bb9{
+    flex: 1;
+    border: none;
+}
+.bb10{
+    flex: 1;
+    border: none;
+}
+.bb11{
+    flex: 1;
+    border: none;
+}
+.b-r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.r1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b4{
+    flex: 1;
+}
+.b44{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.r2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b5{
+    flex: 1;
+}
+.yuva{
+    height: 100px;
+    width: 175px;
+}
+.b55{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.bb13{
+    flex: 1;
+}
+.bb14{
+    flex: 1;
+}
+.bb15{
+    flex: 1;
+}
+.bb16{
+    flex: 1;
+}
+.r3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b6{
+    flex: 1;
+}
+.kabza{
+    height: 100px;
+    width: 175px;
+}
+.b66{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
