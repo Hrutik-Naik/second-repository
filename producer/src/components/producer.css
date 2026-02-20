@@ -1,4 +1,4 @@
-*{;
+*{
     div{
         border: 2px solid black;
         font-family: sans-serif;
@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 .t-l{
     flex: 1;
@@ -53,6 +54,7 @@
     padding: 10px;
     margin-right: 50px;
     border: none;
+    flex-wrap: wrap;
 }
 .a1{
     flex: 1;
@@ -86,6 +88,7 @@
     flex-direction: column;
     padding: 10px;
     border: none;
+    flex-wrap: wrap;
 }
 .b-t{
     flex: 1;
@@ -97,7 +100,9 @@
 .bh{
     flex: 1;
     display: flex;
-    color: red;
+    background: linear-gradient(red,yellow);
+    background-clip: text;
+    color: transparent;
     border: none;
 }
 .bh1{
@@ -129,6 +134,7 @@
     flex-direction: column;
     border-radius: 20px;
     background-color: white;
+    border: none;
 }
 .b1{
     flex: 1;
@@ -172,6 +178,7 @@
     flex-direction: column;
     border-radius: 30px;
     background-color: white;
+    border: none;
 }
 .b2{
     flex: 1;
@@ -225,6 +232,7 @@
     flex-direction: column;
     border-radius: 30px;
     background-color: white;
+    border: none;
 }
 .b4{
     flex: 1;
@@ -261,6 +269,7 @@
     flex-direction: column;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
+    border: none;
 }
 .b5{
     flex: 1;
@@ -272,10 +281,10 @@
     border-radius: 20px;
 }
 .b55{
-    flex: 1;
+   flex: 1;
     display: flex;
     flex-direction: row;
-    border: none;
+    border:  none;
     padding: 10px;
 }
 .cl{
@@ -316,8 +325,16 @@
     height: 50px;
     width: 50px;
     color: white;
-    position: absolute;
+    position: fixed;
+    bottom: 40px;
     right: 30px;
     border-radius: 10px;
     border: none;
 }
+.b66{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+

@@ -5,6 +5,11 @@ import img2 from '../assets/1920.jpg'
 import img3 from '../assets/james.jpg'
 import img4 from '../assets/ong.jpg'
 import img6 from '../assets/user.png'
+import img7 from '../assets/iron.jpg'
+import img8 from '../assets/tobi.jpg'
+import img9 from '../assets/north.jpg'
+import img10 from '../assets/yuva.jpg'
+import img11 from '../assets/kabza.webp'
 
 function Prod() {
 
@@ -27,7 +32,7 @@ function Prod() {
         </div>
         <div className='bottom'>
           <div className="b-t">
-          <div className='bh'>APPROVED MOVIES</div>
+          <div className='bh'><b>APPROVED MOVIES</b></div>
           <div className="bh1"></div>
           </div>
           <div className="b-b">
