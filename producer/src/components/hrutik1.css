@@ -1,0 +1,15 @@
+*{
+    dev{
+        border: 2px solid black;
+    }
+}
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

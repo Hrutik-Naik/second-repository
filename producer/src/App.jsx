@@ -1,12 +1,16 @@
-import Prod from './components/producer'
+// import Prod from './components/producer'
+ import Hrutik from './components/hrutik'
+// import Hrutik1 from './components/hrutik1'
 function App() {
 
   return (
     <>
-    <div className="App">
+    <div className="app">
 
     </div>
-     <Prod/> 
+     {/* <Prod/>  */}
+      <Hrutik/>  
+     {/* <Hrutik1/> */}
     </>
     
   )
