@@ -1,0 +1,269 @@
+*{
+    div{
+    
+    }
+}
+.main{
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.t-l{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+.t1{
+    flex: 1;
+    font-size: large;
+}
+.t2{
+    flex: 1;
+}
+.t-r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.t3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    height: 30px;
+    width: 30px;
+}
+.middle{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 30px;
+}
+.m1{
+    flex: 1;
+    background-color: red;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+}
+.m2{
+    flex: 1;
+    height: 40px;
+    border-radius: 20px;
+}
+.m3{
+    flex: 1;
+    height: 40px;
+    border-radius: 20px;
+}
+.bottom{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.b-t{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.bh{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+.bh1{
+    height: 5px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.b-b{
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.b-l{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.ba1{
+    flex: 5;
+}
+.iron{
+    height: 100%;
+    width: 100%;
+}
+.ba2{
+     flex: 1;
+}
+.ba3{
+     height: 5px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.ba4{
+    flex: 1;
+}
+.ba5{
+    flex: 1;
+}
+.b2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.bb1{
+    flex: 5;
+}
+.tobi{
+    height: 115%;
+    width: 100%;
+}
+.bb2{
+    flex: 1;
+}
+.bb3{
+     height: 5px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.bb4{
+    flex: 1;
+}
+.bb5{
+    flex: 1;
+}
+.b3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.bc1{
+    flex: 5;
+}
+.kantara{
+    height: 108%;
+    width: 100%;
+}
+.bc2{
+    flex: 1;
+}
+.bc3{
+     height: 5px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.bc4{
+    flex: 1;
+}
+.bc5{
+    flex: 1;
+}
+.b-r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.b4{
+    flex: 1;
+     display: flex;
+    flex-direction: column;
+}
+.bd1{
+    flex: 5;
+}
+.north{
+    height: 100%;
+    width: 100%;
+}
+.bd2{
+    flex: 1;
+}
+.bd3{
+     height: 5px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.bd4{
+    flex: 1;
+}
+.bd5{
+    flex: 1;
+}
+.b5{
+    flex: 1;
+     display: flex;
+    flex-direction: column;
+}
+.be1{
+    flex: 5;
+}
+.yuva{
+    height: 100%;
+    width: 100%;
+}
+.be2{
+    flex: 1;
+}
+.be3{
+     height: 5px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.be4{
+    flex: 1;
+}
+.be5{
+    flex: 1;
+}
+.b6{
+    flex: 1;
+     display: flex;
+    flex-direction: column;
+}
+.bf1{
+    flex: 5;
+}
+.salar{
+    height: 100%;
+    width: 100%;
+}
+.bf2{
+    flex: 1;
+}
+.bf3{
+     height: 5px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.bf4{
+    flex: 1;
+}
+.bf5{
+    flex: 1;
+}
+.b7{
+    position: fixed;
+    background: linear-gradient(to right,red,yellow);
+    bottom: 10px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+}

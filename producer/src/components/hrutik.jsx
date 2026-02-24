@@ -1,6 +1,7 @@
 import './hrutik.css'
 import img1 from '../assets/james.jpg'
 import img2 from '../assets/star.png'
+import img3 from '../assets/left.png'
 
 function Hrutik() {
 
@@ -10,6 +11,9 @@ function Hrutik() {
             <div className="top">
                 <div className="t1">
                <img src={img1} alt="" className='james' />
+               </div>
+               <div className="left">
+                <img src={img3} alt="" className='ll1' />
                </div>
                <div className="t2">James</div>
                <div className="t3">English * 1h 40min</div>
@@ -57,8 +61,8 @@ function Hrutik() {
             </div>
             <div className="footer">
                 <div className="f1"><b>Production</b></div>
-                <div className="f2"><p>Produced by: ABC Production</p></div>
-                <div className="f3"><p>Distributed by: Namma Cinema</p></div>
+                <div className="f2"><p>Produced by: <b>ABC Productio</b>n</p></div>
+                <div className="f3"><p>Distributed by: <b>Namma Cinema</b></p></div>
             </div>
         </div>
         </>
