@@ -80,6 +80,10 @@
     flex: 1;
     display: flex;
     gap: 10px;
+    background: linear-gradient(red,yellow);
+    background-clip: text;
+    color: transparent;
+
 }
 .bh1{
     height: 5px;
