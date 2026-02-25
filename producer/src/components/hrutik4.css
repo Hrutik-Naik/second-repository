@@ -1,0 +1,207 @@
+*{
+    div{
+
+    }
+}
+
+.main{
+    max-width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.t-l{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+.t1{
+    flex: 1;
+    font-size: large;
+}
+.t2{
+    flex: 1;
+}
+.t-r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.t3{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    height: 30px;
+    width: 30px;
+}
+.middle{
+    flex:0.5;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 30px;
+    padding-right: 100px;
+}
+.m1{
+    flex: 1;
+    background-color: red;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.m2{
+    flex: 1;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.m3{
+    flex: 1;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.bottom{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(219, 214, 214);
+    padding: 10px;
+}
+.b-t{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.bh{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(red,yellow);
+    background-clip: text;
+    color: transparent;
+
+}
+.bh1{
+    height: 2px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.b-b{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.b-l{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.b1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    gap: 10px;
+}
+.ba1{
+    flex: 1;
+}
+.ironman{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.ba2{
+     flex: 1;
+}
+.ba3{
+     height: 2px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.ba4{
+    flex: 1;
+}
+.ba5{
+    flex: 1;
+}
+.ba6{
+    flex: 1;
+    border-left: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    color: red;
+}
+.b-r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.b2{
+    flex: 1;
+     display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+   background-color: white;
+    padding: 10px;
+    gap: 10px;
+}
+.bd1{
+    flex: 1;
+}
+.north{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.bd2{
+    flex: 1;
+}
+.bd3{
+     height: 2px;
+    background: linear-gradient(to right,red,yellow);
+    width: 40px;
+}
+.bd4{
+    flex: 1;
+}
+.bd5{
+    flex: 1;
+}
+.bd6{
+    flex: 1;
+    border-left: 2px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    color: red;
+}
+.b7{
+    position: fixed;
+    background: linear-gradient(to right,red,yellow);
+    bottom: 10px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    font-size: xx-large;
+    color: white;
+    border: none;
+}
