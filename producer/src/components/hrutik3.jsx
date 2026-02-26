@@ -17,7 +17,7 @@ function Hrutik3() {
             <div className="card">
                 <div className="top1">
                     <div className="top2">
-                        <div className="circle">AD
+                        <div className="circle">PR
                         </div>
                             <div className="circle1"></div>
                     </div>
