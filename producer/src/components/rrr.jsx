@@ -1,9 +1,9 @@
-import './kantara.css'
-import img1 from '../assets/kantara.jpg'
+import './rrr.css'
+import img1 from '../assets/rrr1.jpg'
 import img2 from '../assets/star.png'
 import img3 from '../assets/left.png'
 
-function Kantara() {
+function Rrr() {
 
     return (
         <>
@@ -15,7 +15,7 @@ function Kantara() {
                <div className="left">
                 <img src={img3} alt="" className='ll1' />
                </div>
-               <div className="t2"><h3>Kantara</h3></div>
+               <div className="t2"><h3>RRR</h3></div>
                <div className="t3">English * 1h 40min</div>
             </div>
             <div className="middle">
@@ -29,7 +29,7 @@ function Kantara() {
                 </div>
                 <div className="m-b">
                     <div className="m5"><h3>Synopsis</h3></div>
-                    <div className="m6"><p>A man clashes with mystical forest forces in rural Karnataka.</p></div>
+                    <div className="m6"><p>Two revolutionaries fight against British rule in India.</p></div>
                 </div>
             </div>
             <div className="bottom">
@@ -68,4 +68,4 @@ function Kantara() {
         </>
     )
 }
-export default Kantara
+export default Rrr

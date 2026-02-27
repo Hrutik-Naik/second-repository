@@ -5,7 +5,9 @@
 //  import Hrutik3 from './components/hrutik3'
 // import Me from './components/me'
 // import Hrutik4 from './components/hrutik4'
-import Kantara from './components/kantara'
+// import Kantara from './components/kantara'
+// import Rrr from './components/rrr'
+import Salar from './components/salar'
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
        {/* <Hrutik3/>  */}
        {/* <Me/> */}
        {/* <Hrutik4/> */}
-        <Kantara/>
+        {/* <Kantara/> */}
+        {/* <Rrr/> */}
+        <Salar/>
     </>
     
   )

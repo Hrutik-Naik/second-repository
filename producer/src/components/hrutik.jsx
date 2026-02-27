@@ -15,7 +15,7 @@ function Hrutik() {
                        <div className="left">
                         <img src={img3} alt="" className='ll1' />
                        </div>
-                       <div className="t2">Kantara</div>
+                       <div className="t2"><h3>JAMES</h3></div>
                        <div className="t3">English * 1h 40min</div>
                     </div>
                     <div className="middle">
