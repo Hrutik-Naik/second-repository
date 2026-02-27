@@ -31,11 +31,10 @@ function Hrutik1() {
                 <div className="mr2">POSTER IMAGE</div>
               </div>
               <div className="m4">
+                <div className="a1">
                 <input type="text" className='text2'/>
-                <div className='a1'>
-                <input type="file" className='txt' />
-                </div>
-                <div className="a2"></div>
+                 <input type="file" className='txt'/>
+                 </div>
               </div>
               <div className="m5">
                 <div className="ml3">

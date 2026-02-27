@@ -18,25 +18,24 @@
     align-items: center;
     gap: 4px;
     border: none;
-    
+    padding: 10px;
 }
 .left{
-    height: 30px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(127, 117, 117);
 }
 .arrow1{
-    height: 25px;
+    height: 20px;
     width: 15px;
 }
 .right{
-    height: 30px;
-    width: 80px;
     align-items: center;
     justify-content: center;
     border: none;
+    font-size: small;
 }
 .bottom{
     flex: 4;
@@ -45,9 +44,8 @@
     border: none;
 }
 .card{
-    position: fixed;
     height: 330px;
-    width: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -81,7 +79,7 @@
     width: 100px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(15, 236, 70);
+    background-color: rgb(39, 158, 69);
     border: none;
     color: white;
     font-family: sans-serif;
@@ -96,7 +94,7 @@
     border-radius: 50%;
     top: 30px;
     left: -20px;
-     background-color: rgb(15, 236, 70);
+     background-color: rgb(33, 141, 60);
      border: 2px solid white;
 }
 .middle2{
@@ -105,6 +103,7 @@
     align-items: center;
     justify-content: center;
      border: none;
+     font-size: 14px;
     
 }
 .bottom2{

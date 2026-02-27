@@ -15,8 +15,8 @@ function Rrr() {
                <div className="left">
                 <img src={img3} alt="" className='ll1' />
                </div>
-               <div className="t2"><h3>RRR</h3></div>
-               <div className="t3">English * 1h 40min</div>
+               <div className="t2">RRR</div>
+               <div className="t3"><h6>English * 1h 40min</h6></div>
             </div>
             <div className="middle">
                 <div className="m-t">
